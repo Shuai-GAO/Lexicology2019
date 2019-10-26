@@ -119,8 +119,6 @@ def main():
   test(mix_up('gnash', 'sport'), 'spash gnort')
   test(mix_up('pezzy', 'firm'), 'fizzy perm')
 
-  import sys
-  print(sys.argv[1])
 
 # Standard boilerplate to call the main() function.
 if __name__ == '__main__':
