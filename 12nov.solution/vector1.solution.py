@@ -36,7 +36,7 @@ def main():
             i += 1
           else:
             if i >= 0 and i <= len(words)-1:
-              if words[i] in vocabulary:
+              if normalize(words[i]) in vocabulary:
                 M[vocabulary.index(normalize(words[k])), vocabulary.index(normalize(words[i]))] += 1
             #    print (normalize(words[k]) + ' ' + normalize(words[i]) + ' ' + str(M[vocabulary.index(normalize(words[k])), vocabulary.index(normalize(words[i]))]))
       
