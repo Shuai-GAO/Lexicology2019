@@ -52,10 +52,10 @@ def main():
   N = np.zeros(M.shape)
   N2 = np.zeros(M.shape)
    
-  for i in range (M.shape(0)):
+  for i in range (M.shape[0]):
     N[i] = M[i] / np.sum(M,axis=1)[i]
 
-  for i in range (M.shape(1)):
+  for i in range (M.shape[1]):
     N[:,i] = M[:,i] / np.linalg.norm(M,axis=0)[i]
 
 
